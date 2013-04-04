@@ -22,6 +22,9 @@ SECRET_KEY = '{{ secret_key }}'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# return full debug html upon 500 server errors during AJAX calls (only traceback is returned by default)
+NERF_DEBUG_ON_AJAX = False
+
 TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
